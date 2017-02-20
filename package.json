@@ -4,7 +4,7 @@
   "description": "Greenfield",
   "main": "index.js",
   "scripts": {
-    "start": "gulp styles",
+    "start": "node server/server.js",
     "start:es6": "gulp start:es6",
     "postinstall": "./node_modules/bower/bin/bower install",
     "test": "exit 0"
